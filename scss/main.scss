@@ -1,0 +1,24 @@
+@import "partial";
+body {
+  background-color: #0f0e17;
+}
+h1,
+p {
+  color: #fffffe;
+}
+.btn {
+  background-color: #0f0e17;
+  border: none;
+  font-size: 1.3rem;
+  &:hover {
+    background-color: #f25f4c;
+  }
+}
+.footer p > a {
+  list-style: none;
+  text-decoration: none;
+  color: #fffffe;
+}
+p .anchor {
+  color: #fffffe;
+}
